@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+}
+
+body {
+    text-align: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    border: 0.1rem solid #333;
+    border-radius: 1rem;
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    font-size: 3rem;
+    line-height: 7rem;
+}
+
+h2 {
+    background-color: gold;
+    border-radius: 1rem 1rem 0 0;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li a:visited,
+li a{
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+li {
+    border-top: 0.1rem solid #333;
+}
+
+ /* this focus psudo class is imp for navigation using tab key on keyboard  */
+li a:focus,
+li a:hover {
+    background-color: #333;
+    color: antiquewhite;
+
+}
+
+li:last-child a{
+    border-radius: 0 0 0.9rem 0.9rem;
+}
